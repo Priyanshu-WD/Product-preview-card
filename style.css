@@ -18,8 +18,7 @@
 
 main {
     background-color: var(--bg-color);
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,8 +86,8 @@ main {
 }
 
 #product button {
-    width: 210px;
-    height: 40px;
+    width: 100%;
+    padding: .625rem 0;
     background-color: var(--ca--color);
     border: none;
     border-radius: 5px;
